@@ -1,9 +1,0 @@
-{
-    "steps": [
-        "step 1: Navigate to https://alikc.entomo.co/hs/community-screening",
-        "step 2: Login",
-        "step 3: Click on link  -> Navigate to page 'hs/community-screening/community-screening-records'",
-        "step 4: Click on link",
-        "step 5: Take full page screenshot as checkpoint"
-    ]
-}

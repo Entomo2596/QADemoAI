@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening",
+        "step 2: Login",
+        "step 3: Enter input value in input field 'inputEmail4'",
+        "step 4: Click on button 'Search'",
+        "step 5: Click on link",
+        "step 6: Click on button 'Verify Details'",
+        "step 7: Click on input field 'chkValidate'",
+        "step 8: Click on button 'Continue Health Examination'",
+        "step 9: Click on link",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}
