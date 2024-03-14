@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Health Screening Records,"Navigate to the health screening page, login, and perform a series of actions including inputting passport number, starting and continuing health screening, and verifying screening records.","step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
+1,Verify Health Screening Records after Completing Health Screening,Navigate to the health screening page and complete the health screening process. Verify the health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -34,7 +34,43 @@ step 32: Click on button
 step 33: Click on button
 step 34: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/screening-records'
 step 35: Take full page screenshot as checkpoint",High
-3,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including inputting email, searching, verifying details, and completing the health screening process.","step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
+2,Verify Hajj Hajj Screening Records after Completing Health Screening,Navigate to the Hajj screening page and complete the health screening process. Verify the Hajj screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
+step 2: Login
+step 3: Click on input field 'icOrPassportNumber'
+step 4: Enter input value in input field 'icOrPassportNumber'
+step 5: Click on input field 'confirmIcOrPassport'
+step 6: Enter input value in input field 'confirmIcOrPassport'
+step 7: Click on button 'Submit'
+step 8: Click on button 'Start health screening'
+step 9: Click on label
+step 10: Click on input field '0 1.1'
+step 11: Click on label
+step 12: Click on input field '1 1.1.1'
+step 13: Click on button 'Continue'
+step 14: Click on button 'Continue'
+step 15: Click on button 'Continue'
+step 16: Click on input field '4.1.1.3'
+step 17: Click on input field '4.1.1.3.1'
+step 18: Enter input value in input field '4.1.1.3.1'
+step 19: Click on input field '4.1.1.3.2'
+step 20: Enter input value in input field '4.1.1.3.2'
+step 21: Click on button 'Continue'
+step 22: Click on button 'Submit'
+step 23: Click on button 'Screening Summary'
+step 24: Click on button 'Close' -> Navigate to page 'hs/hajj/hajj-health-screening'
+step 25: Click on link  -> Navigate to page 'hs/hajj/hajj-screening-records'
+step 26: Click on link '\xa0\xa0Back to Facility Medical Records'
+step 27: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/overview'
+step 28: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
+step 29: Click on link 'Vaccination' -> Navigate to page 'hs/hiv-screening/hiv-screening-records'
+step 30: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/hajj/hajj-screening-records'
+step 31: Click on link '\xa0\xa0Back to Facility Medical Records'
+step 32: Click on button
+step 33: Click on button
+step 34: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/screening-records'
+step 35: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/hajj/hajj-screening-records'
+step 36: Take full page screenshot as checkpoint",High
+3,Verify Hajj Health Screening after Completing Health Screening,Complete the health screening process for Hajj and verify the health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -73,7 +109,7 @@ step 36: Click on button
 step 37: Click on button
 step 38: Click on link 'Hajj Pilgrim Health Examination' -> Navigate to page 'hs/hajj/hajj-health-screening'
 step 39: Take full page screenshot as checkpoint",High
-4,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including registering a new patient, continuing the health examination, and verifying the health screening.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+4,Verify Hajj Hajj Health Screening after Registering New Patient,Register a new patient for Hajj health screening and verify the health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Click on button 'Register New Patient'
 step 4: Click on input field
@@ -94,7 +130,7 @@ step 18: Click on button 'Back'
 step 19: Click on button 'Back'
 step 20: Click on button 'Back'
 step 21: Take full page screenshot as checkpoint",High
-5,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including filtering records, selecting status, continuing the health examination, and verifying the health screening.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+5,Verify Hajj Hajj Health Screening after Filtering Health Screening Records,Filter the health screening records for Hajj and verify the health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Click on link 'Facility Medical Records' -> Navigate to page 'hs/hajj/hajj-screening-records'
 step 4: Click on link '\xa0\xa0Back to Facility Medical Records'
@@ -121,43 +157,7 @@ step 24: Click on input field '1 6.1'
 step 25: Click on input field '1 10.0'
 step 26: Click on input field '10.0.4'
 step 27: Take full page screenshot as checkpoint",High
-2,Verify Hajj Health Screening Records,"Navigate to the Hajj health screening page, login, and perform a series of actions including inputting passport number, starting and continuing health screening, and verifying Hajj health screening records.","step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
-step 2: Login
-step 3: Click on input field 'icOrPassportNumber'
-step 4: Enter input value in input field 'icOrPassportNumber'
-step 5: Click on input field 'confirmIcOrPassport'
-step 6: Enter input value in input field 'confirmIcOrPassport'
-step 7: Click on button 'Submit'
-step 8: Click on button 'Start health screening'
-step 9: Click on label
-step 10: Click on input field '0 1.1'
-step 11: Click on label
-step 12: Click on input field '1 1.1.1'
-step 13: Click on button 'Continue'
-step 14: Click on button 'Continue'
-step 15: Click on button 'Continue'
-step 16: Click on input field '4.1.1.3'
-step 17: Click on input field '4.1.1.3.1'
-step 18: Enter input value in input field '4.1.1.3.1'
-step 19: Click on input field '4.1.1.3.2'
-step 20: Enter input value in input field '4.1.1.3.2'
-step 21: Click on button 'Continue'
-step 22: Click on button 'Submit'
-step 23: Click on button 'Screening Summary'
-step 24: Click on button 'Close' -> Navigate to page 'hs/hajj/hajj-health-screening'
-step 25: Click on link  -> Navigate to page 'hs/hajj/hajj-screening-records'
-step 26: Click on link '\xa0\xa0Back to Facility Medical Records'
-step 27: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/overview'
-step 28: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
-step 29: Click on link 'Vaccination' -> Navigate to page 'hs/hiv-screening/hiv-screening-records'
-step 30: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/hajj/hajj-screening-records'
-step 31: Click on link '\xa0\xa0Back to Facility Medical Records'
-step 32: Click on button
-step 33: Click on button
-step 34: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/screening-records'
-step 35: Click on link '\xa0\xa0Back to Facility Medical Records' -> Navigate to page 'hs/hajj/hajj-screening-records'
-step 36: Take full page screenshot as checkpoint",High
-6,Verify HIV Screening,"Navigate to the HIV screening page, login, and perform a series of actions including inputting passport number, starting and continuing health screening, and verifying the HIV screening.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+6,Verify HIV Screening after Completing Health Screening,Complete the health screening process for HIV and verify the HIV screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on link  -> Navigate to page 'hs/community-screening/community-screening-records'
 step 4: Click on td
@@ -184,7 +184,7 @@ step 24: Enter input value in input field '4.1.1.3.2'
 step 25: Click on button 'Continue'
 step 26: Click on button 'Continue'
 step 27: Take full page screenshot as checkpoint",High
-7,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including inputting email, searching, verifying details, and completing the health screening process.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+7,Verify Hajj Hajj Health Screening after Searching and Editing Details,Search for and edit details for Hajj health screening. Verify the Hajj health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
@@ -201,7 +201,7 @@ step 14: Click on input field
 step 15: Click on input field
 step 16: Click on button 'Save & Exit'
 step 17: Take full page screenshot as checkpoint",High
-8,Verify Community Screening,"Navigate to the community screening page, login, and perform a series of actions including inputting passport number, starting and continuing health screening, and verifying the community screening.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+8,Verify Community Screening after Completing Health Screening,Complete the health screening process for the community and verify the community screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -279,7 +279,7 @@ step 75: Click on div
 step 76: Click on button 'Continue'
 step 77: Click on button 'Submit'
 step 78: Take full page screenshot as checkpoint",High
-9,Verify Community Screening Records,"Navigate to the community screening records page, login, and perform a series of actions including filtering records, adding new health screening, and verifying the community screening records.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening/community-screening-records
+9,Verify Hajj Hajj Health Screening after Accessing Health Screening Records,Access the health screening records for Hajj and verify the Hajj health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening/community-screening-records
 step 2: Login
 step 3: Click on button  -> Navigate to page 'hs/hiv-screening/hiv-screening-records'
 step 4: Click on select
@@ -290,21 +290,7 @@ step 8: Click on button
 step 9: Click on button
 step 10: Click on link 'Hajj Pilgrim Health Examination\n' -> Navigate to page 'hs/hajj/hajj-health-screening'
 step 11: Take full page screenshot as checkpoint",High
-10,Verify HIV Screening,"Navigate to the HIV screening page, login, and perform a series of actions including inputting passport number, confirming, and submitting the screening.","step 1: Navigate to https://alikc.entomo.co/hs
-step 2: Login
-step 3: Click on link 'Health Screening'
-step 4: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
-step 5: Click on link 'Health Screening'
-step 6: Click on link 'Home' -> Navigate to page 'hs/hiv-screening'
-step 7: Click on input field 'icOrPassportNumber'
-step 8: Enter input value in input field 'icOrPassportNumber'
-step 9: Click on input field 'confirmIcOrPassport'
-step 10: Enter input value in input field 'icOrPassportNumber'
-step 11: Click on input field 'confirmIcOrPassport'
-step 12: Enter input value in input field 'confirmIcOrPassport'
-step 13: Click on button 'Submit'
-step 14: Take full page screenshot as checkpoint",High
-11,Verify Community Screening,"Navigate to the community screening page, login, and perform a series of actions including inputting passport number, selecting options, and starting the health screening.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+10,Verify Community Screening after Completing Health Screening,Complete the health screening process for the community and verify the community screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -322,7 +308,7 @@ step 15: Click on div
 step 16: Click on span
 step 17: Click on button 'Start health screening'
 step 18: Take full page screenshot as checkpoint",High
-12,Verify Community Screening,"Navigate to the community screening page, login, and perform a series of actions including inputting passport number, registering a new client, and starting the health screening.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+11,Verify Community Screening after Registering New Client,Register a new client for community screening and verify the community screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -338,7 +324,7 @@ step 13: Click on button 'Start health screening'
 step 14: Click on button 'Next'
 step 15: Click on button 'Continue'
 step 16: Take full page screenshot as checkpoint",High
-13,Verify Community Screening,"Navigate to the community screening page, login, and perform a series of actions including inputting passport number, editing, and starting the health screening.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+12,Verify Community Screening after Completing Health Screening,Complete the health screening process for the community and verify the community screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on input field 'icOrPassportNumber'
 step 4: Enter input value in input field 'icOrPassportNumber'
@@ -351,13 +337,13 @@ step 10: Click on input field '1 5.2.1'
 step 11: Click on input field '0 5.2.2'
 step 12: Click on button 'Start health screening'
 step 13: Take full page screenshot as checkpoint",High
-15,Verify Hajj Health Screening Records,"Navigate to the Hajj health screening records page, login, and perform a series of actions including filtering records and verifying the Hajj health screening records.","step 1: Navigate to https://alikc.entomo.co/hs
+13,Verify Hajj Hajj Screening Records after Accessing Health Screening Records,Access the health screening records for Hajj and verify the Hajj screening records.,"step 1: Navigate to https://alikc.entomo.co/hs
 step 2: Login
 step 3: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
 step 4: Click on link 'Home' -> Navigate to page 'hs/hajj/hajj-screening-records'
 step 5: Click on button 'Filter'
 step 6: Take full page screenshot as checkpoint",High
-14,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including inputting email, searching, verifying details, and completing the health screening process.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+14,Verify Hajj Hajj Health Screening after Searching and Editing Details,Search for and edit details for Hajj health screening. Verify the Hajj health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
@@ -366,12 +352,23 @@ step 6: Click on button 'Verify Details'
 step 7: Click on button 'Edit'
 step 8: Click on input field
 step 9: Enter input value in input field
-step 10: Click on input field 'chkValidate'
-step 11: Click on button 'Continue Health Examination'
-step 12: Click on input field '1.1'
-step 13: Click on button 'Save & Exit'
-step 14: Take full page screenshot as checkpoint",High
-16,Verify Hajj Health Screening Records,"Navigate to the Hajj health screening records page, login, and perform a series of actions including searching, verifying details, and filtering records to verify the Hajj health screening records.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+step 10: Click on label
+step 11: Click on input field 'chkValidate'
+step 12: Click on button 'Continue Health Examination'
+step 13: Click on div 'a3d615c4a69d-0'
+step 14: Click on span
+step 15: Click on div 'a605cf4a5f68-0'
+step 16: Click on div
+step 17: Click on div 'aebb87f931c1-1'
+step 18: Click on div
+step 19: Click on span
+step 20: Click on button 'Continue Health Examination'
+step 21: Click on div
+step 22: Click on button 'Continue Health Examination'
+step 23: Click on input field '1.1'
+step 24: Click on button 'Save & Exit'
+step 25: Take full page screenshot as checkpoint",High
+15,Verify Hajj Hajj Screening Records after Filtering Health Screening Records,Filter the health screening records for Hajj and verify the Hajj screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
@@ -382,13 +379,18 @@ step 8: Click on button 'Filter'
 step 9: Click on button 'Filter'
 step 10: Click on link
 step 11: Take full page screenshot as checkpoint",High
-17,Verify Community Screening Records,"Navigate to the community screening records page, login, and perform a series of actions including selecting options and verifying the community screening records.","step 1: Navigate to https://alikc.entomo.co/hs/community-screening
+16,Verify Community Screening Community Screening Records after Accessing Community Screening Records,Access the community screening records and verify the community screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/community-screening
 step 2: Login
 step 3: Click on link  -> Navigate to page 'hs/community-screening/community-screening-records'
 step 4: Click on select
 step 5: Click on link
 step 6: Take full page screenshot as checkpoint",High
-18,Verify Health Screening,"Navigate to the health screening page, login, and perform a series of actions including registering a new patient, inputting details, continuing the examination, and previewing before submission.","step 1: Navigate to https://alikc.entomo.co/hs
+17,Verify Home Screening after Accessing Home,Access the home page and verify the home screening.,"step 1: Navigate to https://alikc.entomo.co/hs
+step 2: Login
+step 3: Click on button
+step 4: Click on div
+step 5: Take full page screenshot as checkpoint",High
+18,Verify Health Screening after Completing Health Screening,Complete the health screening process and verify the health screening records.,"step 1: Navigate to https://alikc.entomo.co/hs
 step 2: Login
 step 3: Click on link 'Health Screening'
 step 4: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
@@ -441,25 +443,31 @@ step 50: Enter input value in textarea
 step 51: Click on select
 step 52: Click on button 'Preview before Submit'
 step 53: Take full page screenshot as checkpoint",High
-19,Verify Health Screening,"Navigate to the health screening page, login, and perform a series of actions including clicking buttons and verifying the page.","step 1: Navigate to https://alikc.entomo.co/hs
+19,Verify HIV Screening HIV Screening Records after Completing Health Screening,Complete the health screening process for HIV and verify the HIV screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/hiv-screening
 step 2: Login
-step 3: Click on button
-step 4: Click on div
+step 3: Click on input field 'icOrPassportNumber'
+step 4: Enter input value in input field 'icOrPassportNumber'
+step 5: Click on input field 'confirmIcOrPassport'
+step 6: Enter input value in input field 'confirmIcOrPassport'
+step 7: Click on button 'Submit'
+step 8: Click on button 'Register New Client' -> Navigate to page 'hs/hiv-screening/hiv-screening-records'
+step 9: Click on button 'Filter'
+step 10: Click on td
+step 11: Take full page screenshot as checkpoint",High
+20,Verify Screening Records after Accessing Screening Records,Access the screening records and verify the screening records.,"step 1: Navigate to https://alikc.entomo.co/hs/screening-records
+step 2: Login
+step 3: Click on select
+step 4: Click on select
 step 5: Take full page screenshot as checkpoint",High
-20,Verify Hajj Health Screening,"Navigate to the Hajj health screening page, login, and perform a series of actions including searching, verifying details, and previewing before submission to verify the Hajj health screening.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+21,Verify Health Screening Page after Login,Navigate to the health screening page and log in. Enter the email and perform a search. Click on an object and preview before submitting. Verify the health screening page.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
 step 5: Click on link
 step 6: Click on button
 step 7: Click on button 'Preview before Submit'
-step 8: Take full page screenshot as checkpoint",Medium
-21,Verify Health Screening Records Page,"Navigate to the Health Screening Records page, login, and select an object. Verify the Health Screening Records page.","step 1: Navigate to https://alikc.entomo.co/hs/screening-records
-step 2: Login
-step 3: Click on select
-step 4: Click on select
-step 5: Take full page screenshot as checkpoint",Medium
-22,Verify Hajj Health Screening Page,"Navigate to the Hajj Health Screening page, login, and perform a series of actions including searching, selecting objects, and continuing health examination. Verify the Hajj Health Screening page.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+step 8: Take full page screenshot as checkpoint",High
+22,Verify Health Examination Process at Health Screening Page,"Navigate to the health screening page and log in. Enter the email and perform a search. Click on an object to verify details. Proceed with health examination, continue, and verify the health screening page.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
@@ -468,8 +476,12 @@ step 6: Click on button 'Verify Details'
 step 7: Click on input field 'chkValidate'
 step 8: Click on button 'Continue Health Examination'
 step 9: Click on link
-step 10: Take full page screenshot as checkpoint",Medium
-23,Verify Health Screening Page,"Navigate to the Health Screening page, login, and perform a lengthy series of actions including adding, editing, and continuing health screening. Verify the Health Screening page.","step 1: Navigate to https://alikc.entomo.co/hs
+step 10: Take full page screenshot as checkpoint",High
+23,Verify Overview of Health Screening,Navigate to the overview page and log in. Click on the health screening link and verify the overview of the health screening.,"step 1: Navigate to https://alikc.entomo.co/hs/overview
+step 2: Login
+step 3: Click on link 'Saringan Kesihatan'
+step 4: Take full page screenshot as checkpoint",Medium
+24,Verify Health Screening Process and Edit Details,"Navigate to the health screening page and log in. Add a new health screening, perform a search, and proceed with the health screening process. Edit details and continue the health screening process. Verify the health screening page.","step 1: Navigate to https://alikc.entomo.co/hs
 step 2: Login
 step 3: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
 step 4: Click on button 'Search'
@@ -559,19 +571,25 @@ step 87: Click on input field '1.1.3'
 step 88: Click on button 'Continue'
 step 89: Click on button 'Continue'
 step 90: Take full page screenshot as checkpoint",Medium
-24,Verify Hajj Health Screening Page,"Navigate to the Hajj Health Screening page, login, search, select an object, and verify the Hajj Health Screening page.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+25,Verify Access to Health Screening Page and Add New Health Screening,Navigate to the health screening page and log in. Access the health screening link and add a new health screening. Verify the health screening page.,"step 1: Navigate to https://alikc.entomo.co/hs
+step 2: Login
+step 3: Click on link 'Health Screening'
+step 4: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'
+step 5: Click on link 'Health Screening'
+step 6: Take full page screenshot as checkpoint",Medium
+26,Verify Health Screening Page after Login and Search,Navigate to the health screening page and log in. Enter the email and perform a search. Click on an object and verify the health screening page.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
 step 5: Click on div
 step 6: Take full page screenshot as checkpoint",Low
-25,Verify Hajj Health Screening Page,"Navigate to the Hajj Health Screening page, login, search, and select an object. Verify the Hajj Health Screening page.","step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
+27,Verify Health Screening Page after Login and Search,Navigate to the health screening page and log in. Enter the email and perform a search. Click on the health screening link and verify the health screening page.,"step 1: Navigate to https://alikc.entomo.co/hs/hajj/hajj-health-screening
 step 2: Login
 step 3: Enter input value in input field 'inputEmail4'
 step 4: Click on button 'Search'
 step 5: Click on link 'Health Screening'
 step 6: Take full page screenshot as checkpoint",Low
-26,Verify Health Screening Page,"Navigate to the Health Screening page, login, search, select an object, and edit. Verify the Health Screening page.","step 1: Navigate to https://alikc.entomo.co/hs/health-screening
+28,Verify Search and Edit at Health Screening Page,"Navigate to the health screening page and log in. Perform a search, click on an object, and edit. Verify the health screening page.","step 1: Navigate to https://alikc.entomo.co/hs/health-screening
 step 2: Login
 step 3: Click on button 'Search'
 step 4: Click on link
