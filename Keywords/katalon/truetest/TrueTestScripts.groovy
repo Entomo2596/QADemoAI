@@ -26,15 +26,15 @@ public class TrueTestScripts {
     public static void login() {
         try {
             
-            WebUI.openBrowser('')
             
-            WebUI.maximizeWindow()
             
-            WebUI.navigateToUrl(GlobalVariable.URL)
+            
+            
+            WebUI.navigateToUrl('https://mysjdev.entomo.co/myvas-ui/')
             
             //WebUI.click(findTestObject('Object Repository/Healthscreening/Page_Health Screening/Page_Health Screening/Page_My Sejahtera CheckIns/button_Tutup'))
             WebUI.setText(findTestObject('Object Repository/Healthscreening/Page_Health Screening/Page_Health Screening/Page_My Sejahtera CheckIns/input_Email Address_username'),
-            'nanthakumar27@gmail.com')
+            'dev01@dev.com')
             
             WebUI.delay(25)
             
@@ -51,6 +51,11 @@ public class TrueTestScripts {
             
             WebUI.click(findTestObject('Object Repository/Healthscreening/Page_Health Screening/Page_Health Screening/Page_My Sejahtera/Page_MyVAS Home/h5_Health Screening'),
             FailureHandling.STOP_ON_FAILURE)
+            
+            WebUI.verifyElementPresent(findTestObject('Page_MyVAS Health Screening/a_Health Screening'), 1)
+            
+            WebUI.takeFullPageScreenshot()
+            
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
                 KeywordUtil.logInfo(e.getMessage())

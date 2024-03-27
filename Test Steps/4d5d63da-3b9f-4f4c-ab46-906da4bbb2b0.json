@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://mysjdev.entomo.co/hs/health-screening",
+        "step 2: Login",
+        "step 3: Enter input value in input field 'inputEmail4'",
+        "step 4: Click on button 'Search'",
+        "step 5: Click on link",
+        "step 6: Click on button 'Edit'",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}

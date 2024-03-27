@@ -1,0 +1,20 @@
+{
+    "steps": [
+        "step 1: Navigate to https://mysjdev.entomo.co/hs/hajj/hajj-screening-records",
+        "step 2: Login",
+        "step 3: Click on select",
+        "step 4: Click on link '\\xa0\\xa0Back to Facility Medical Records' -> Navigate to page 'hs/screening-records'",
+        "step 5: Click on select",
+        "step 6: Click on link  -> Navigate to page 'hs/community-screening'",
+        "step 7: Click on app",
+        "step 8: Click on link  -> Navigate to page 'hs/hajj/hajj-health-screening'",
+        "step 9: Click on link 'Health Screening'",
+        "step 10: Click on link 'Appointment Settings' -> Navigate to page 'hs'",
+        "step 11: Click on link 'Health Screening'",
+        "step 12: Click on link 'Add New Health Screening' -> Navigate to page 'hs/health-screening'",
+        "step 13: Enter input value in input field 'inputEmail4'",
+        "step 14: Click on button 'Search'",
+        "step 15: Click on link 'Health Screening'",
+        "step 16: Take full page screenshot as checkpoint"
+    ]
+}
